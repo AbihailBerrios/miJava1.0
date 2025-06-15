@@ -10,6 +10,7 @@ public class HolaMundo {
         int resta = a - b;
         int division = a / b;
         int modulo = a % b;
+        int potencia = (int) Math.pow(a, b);
 
         System.out.println("Hola, " + nombre + "!");
         System.out.println();
@@ -19,5 +20,6 @@ public class HolaMundo {
         System.out.println("El módulo de " + a + " % " + b + " es: " + modulo);
         System.out.println("La división de " + a + " / " + b + " es: " + division);
         System.out.println("El promedio de " + a + " y " + b + " es: " + promedio);
+        System.out.println("La potencia de " + a + " ^ " + b + " es: " + potencia);
     }
 }
